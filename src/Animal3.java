@@ -1,6 +1,7 @@
+//test
 public class Animal3 {
     String species;
-    String name;
+    String names;
     Double weight;
     Boolean isAlive;
 
