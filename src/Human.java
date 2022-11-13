@@ -1,4 +1,4 @@
-import devices.Car;
+import com.devices.Car;
 
 import java.time.LocalDateTime;
 
@@ -55,7 +55,17 @@ public class Human
     public String toString() {
         return this.firstName + " " +this.lastName;
     }
+//13.11.2022-------------------------------------------------------------
+    public class Human extends Animal{
+        private String firstName;
+        String lastName;
+        private Double salary;
+    }
 
-
+    public Human(){
+        super("homo sapiens");
+        this.Salary = 0.0;
+    }
+//------------------------------------------------------------------------
 
 }
